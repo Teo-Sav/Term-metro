@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  temperature: number = 0;
 
-  constructor() {}
+  getWidth(): number {
+    const percentage = (this.temperature + 50) / 100;
+    return percentage * 100;
+  }
 
 }
