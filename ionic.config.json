@@ -1,0 +1,7 @@
+{
+  "name": "Termómetro-Sav",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
